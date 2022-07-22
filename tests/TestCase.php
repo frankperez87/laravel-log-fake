@@ -2,8 +2,8 @@
 
 namespace frankperez87\LaravelLogFake\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use frankperez87\LaravelLogFake\LogFakeServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

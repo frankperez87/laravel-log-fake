@@ -8,6 +8,7 @@ use Psr\Log\AbstractLogger;
 class LogFake extends AbstractLogger
 {
     protected $context = [];
+
     protected $logs = [];
 
     public function log($level, string|\Stringable $message, array $context = []): void
@@ -26,7 +27,7 @@ class LogFake extends AbstractLogger
 
         PHPUnit::assertTrue(
             count($logs) > 0,
-            "The message was logged."
+            'The message was logged.'
         );
     }
 
@@ -34,7 +35,7 @@ class LogFake extends AbstractLogger
     {
         PHPUnit::assertTrue(
             $callback($this->context),
-            "The context was found."
+            'The context was found.'
         );
     }
 

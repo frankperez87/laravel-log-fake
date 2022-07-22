@@ -2,8 +2,8 @@
 
 namespace frankperez87\LaravelLogFake\Facades;
 
-use Illuminate\Support\Facades\Facade;
 use frankperez87\LaravelLogFake\LogFake as LaravelLogFake;
+use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Illuminate\Log\Logger
