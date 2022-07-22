@@ -7,6 +7,15 @@
 
 This package allows you to easily test the Laravel Log functionality.
 
+## Supported Versions
+
+We currently support the following Laravel versions.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 8.x   | :white_check_mark: |
+| 9.x  | :white_check_mark: |
+
 ## Installation
 
 You can install the package via composer:
